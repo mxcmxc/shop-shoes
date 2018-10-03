@@ -1,0 +1,311 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
+body {
+  font-family: 'Roboto Condensed', Helvetica, sans-serif;
+  text-align: left;
+  color: #303030;
+}
+
+h3 {
+  color: #C3FF00;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+h4 {
+  text-transform: uppercase;
+}
+
+.button-active {
+  color: #C3FF00;
+  background-color: #535353;
+}
+
+.disabled h3 {
+  color: #535353;
+  cursor: not-allowed;
+}
+
+.logo {
+  font-size: 1.4rem;
+  color: #98d626;
+}
+
+.container {
+  max-width: 27em;
+  margin: 0 auto;
+}
+
+nav {
+  background-color: #303030;
+  color: #EFEFEF;
+  margin-top: 2em;
+  padding: 2em 0.5em;
+}
+
+nav .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav .login-button, nav .menu-button {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding: 1em 1.25em;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+}
+
+.nav-menu {
+  background-color: #535353;
+  color: #EFEFEF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.nav-menu .container {
+  padding: 1.5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav-menu .container ul {
+  list-style: none;
+}
+
+.nav-menu .container ul li {
+  padding: 0.25em 2em;
+}
+
+.nav-menu .container ul li:first-child {
+  text-transform: uppercase;
+  color: #C3FF00;
+  letter-spacing: 0.05em;
+}
+
+.hide {
+  display: none;
+}
+
+.login-form {
+  background-color: #535353;
+  padding: 1em 0 0;
+  color: #EFEFEF;
+  display: none;
+}
+
+.login-form .container {
+  padding: 0 0.5em;
+}
+
+.login-form h4 {
+  font-weight: 400;
+}
+
+.login-form input {
+  width: calc(100% - 1em);
+  border: none;
+  height: 2em;
+  margin: 0.5em 0;
+  font-size: 1em;
+  padding: 0 0.5em;
+}
+
+.login-form .sign-in-button {
+  background-color: #303030;
+  color: #C3FF00;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  text-align: center;
+  width: 100%;
+  height: 2.5em;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+}
+
+.product-card {
+  margin: 1em 0;
+}
+
+.product-card .product-photo {
+  background-size: 28em 15em;
+  background-position: center;
+  height: 14em;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.product-card .nike-grey-black {
+  background-image: url(../images/fachry-zella-devandra.jpg);
+}
+
+.product-card .nike-airmax-orange {
+  background-image: url(../images/lefteris-kallergis.jpg);
+}
+
+.product-card .nike-red-white {
+  background-image: url(../images/paul-volkmer.jpg);
+}
+
+.product-card .photo-active {
+  background-size: 30.8em 16.5em;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.product-details {
+  margin-top: -5px;
+  background-color: #EFEFEF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.product-details .product-name, .product-details .product-price {
+  padding: 0.7em 1.25em;
+}
+
+.product-details div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.more-details-button {
+  background-color: #535353;
+  padding: 0.75em 1.25em;
+  cursor: pointer;
+  width: 1em;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
+.more-details-button img {
+  position: relative;
+  left: 0.1em;
+}
+
+.more-details-button .rotate {
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.shoe-details {
+  display: none;
+  background-color: #535353;
+  color: #EFEFEF;
+  padding: 1em 1.25em;
+}
+
+.shoe-details .active {
+  background-color: #C3FF00;
+  color: #303030;
+}
+
+.size-chart {
+  padding: 1em 0;
+}
+
+.size-chart ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 1em;
+}
+
+.size-chart ul li {
+  padding: 0.5em;
+  background-color: #303030;
+  width: 100%;
+  text-align: center;
+  margin-right: 2px;
+}
+
+.add-to-cart-button {
+  background-color: #303030;
+  text-align: center;
+  padding: 0.75em;
+  cursor: pointer;
+}
+
+.shopping-cart {
+  background-color: #171717;
+  position: fixed;
+  bottom: 0;
+  z-index: 99;
+  width: 100%;
+  -webkit-box-shadow: 2px 0 4px 0 rgba(0, 0, 0, 0.5);
+          box-shadow: 2px 0 4px 0 rgba(0, 0, 0, 0.5);
+  display: none;
+  height: 3.5em;
+}
+
+.shopping-cart .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1em;
+}
+
+.shopping-cart .container .cart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.shopping-cart .container .cart object {
+  margin-right: 0.75em;
+}
+
+footer {
+  color: #EFEFEF;
+  background-color: #303030;
+  margin-top: 2em;
+  padding: 2em 0.5em;
+}
+
+footer .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/*# sourceMappingURL=styles.css.map */

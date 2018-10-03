@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Shoe Shop</title>
+  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet'>
+  <link rel='stylesheet' type='text/css' href='./styles/styles.css'>
+</head>
+<body>
+  
+  <!-- Nav -->
+  <nav>
+    <div class='container'>
+      <p class="logo">Logo</p> 
+      <div>
+        <span class='menu-button'>Menu</span>
+        <span class='login-button'>Login</span>
+      </div>
+    </div>
+  </nav>
+  
+ <!-- Nav Menu -->
+ <div class='nav-menu hide' id='nav-dropdown'>
+    <div class='container'>
+      <ul>
+        <li>Shoes</li>
+        <li>Women's Shoes</li>
+        <li>Men's Shoes</li>
+      </ul>
+      <ul>
+        <li>Contact</li>
+        <li>Twitter</li>
+        <li>Facebook</li>
+        <li>Instagram</li>
+        <li>Email</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Login Form -->
+  <div class='login-form'>
+    <div class='container'>
+      <form>
+        <h4>Username</h4>
+        <input class='username' />
+        <h4>Password</h4>
+        <input type='password' />
+        <input class='sign-in-button' type='submit' value='Sign In' />
+      </form>
+    </div>
+  </div>
+
+  <!-- Product Cards -->
+  <div class='container'>
+    <div class='product-card'>
+      <div class='product-photo nike-grey-black'></div>
+      <div class='product-details'>
+        <h4 class='product-name'>Nike Grey Black</h4>
+        <div>
+          <p class='product-price'>$35</p>
+          <div class='more-details-button arrow-one'>
+            <img src='https://s3.amazonaws.com/codecademy-content/courses/jquery/audit/images/right-arrow.svg' />
+          </div>
+        </div>
+      </div>
+
+      <div class='shoe-details shoe-details-one'>
+        <p class='shoe-details-description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <div class='size-chart'>
+          <h4>Size</h4>
+          <ul class='sizes sizes-one'>
+            <li>8</li>
+            <li>9</li>
+            <li>10</li>
+            <li>11</li>
+            <li>12</li>
+          </ul>
+        </div>
+        <div class='add-to-cart-button disabled add-one'>
+          <div class='text-one'>
+          <h3>Add to cart</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class='container'>
+    <div class='product-card'>
+      <div class='product-photo nike-airmax-orange'></div>
+      <div class='product-details'>
+        <h4 class='product-name'>Nike Air Max Orange</h4>
+        <div>
+          <p class='product-price'>$40</p>
+          <div class='more-details-button arrow-two'>
+            <img src='https://s3.amazonaws.com/codecademy-content/courses/jquery/audit/images/right-arrow.svg' />
+          </div>
+        </div>
+      </div>
+
+      <div class='shoe-details shoe-details-two'>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <div class='size-chart'>
+          <h4>Size</h4>
+          <ul class='sizes sizes-two'>
+            <li>6</li>
+            <li>7</li>
+            <li>10</li>
+            <li>12</li>
+            <li>13</li>
+          </ul>
+        </div>
+        <div class='add-to-cart-button disabled'>
+          <h3 class="text-two">Add to cart</h3>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class='container'>
+    <div class='product-card'>
+      <div class='product-photo nike-red-white'></div>
+      <div class='product-details'>
+        <h4 class='product-name'>Nike Red White</h4>
+        <div>
+          <p class='product-price'>$60</p>
+          <div class='more-details-button arrow-three'>
+            <img src='https://s3.amazonaws.com/codecademy-content/courses/jquery/audit/images/right-arrow.svg' />
+          </div>
+        </div>
+      </div>
+
+      <div class='shoe-details shoe-details-three'>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <div class='size-chart'>
+          <h4>Size</h4>
+          <ul class='sizes sizes-three'>
+            <li>9</li>
+            <li>10</li>
+            <li>10.5</li>
+            <li>11</li>
+          </ul>
+        </div>
+        <div class='add-to-cart-button disabled'>
+          <h3 class="text-three">Add to cart</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Shopping cart -->
+  <div class='shopping-cart'>
+    <div class='container'>
+      <div class='cart'>
+        <object type='image/svg+xml' data='https://s3.amazonaws.com/codecademy-content/courses/jquery/audit/images/shopping-cart.svg'></object>
+        <h3 class='items-qty'>1</h3>
+      </div>
+      <h3>Checkout</h3>
+    </div>
+  </div>
+  
+  <!-- Footer -->
+  <footer>
+    <div class='container'>
+      <p class="logo">Logo</p> 
+      <div>Contact Us</div>
+    </div>
+  </footer>
+  
+<script
+src="https://code.jquery.com/jquery-3.2.1.min.js"
+integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+crossorigin="anonymous"></script>
+<script src='main.js'></script>
+
+</body>
+</html>

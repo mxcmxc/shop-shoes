@@ -5,7 +5,7 @@ $(document).ready(() => {
     $('.login-button').toggleClass('button-active');
   });
 
-  //make the individual product photos zoom in when someone hovers over them
+  // zoom in/out effect when hovering over product photos
   $('.product-photo').on('mouseenter', () => {
     $('.product-photo').addClass('photo-active');
   }).on('mouseleave', function() {

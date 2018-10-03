@@ -9,6 +9,6 @@ open `index.html` file in browser
 - `jQuery`
 
 ## Final Product
-!["Login page"](README-images/login.png)
-!["Menu page"](README-images/menu.png)
-!["Add to cart"](README-images/add-to-cart.png)
+<img src="README-images/login.png" width="50%">
+<img src="README-images/menu.png" width="50%">
+<img src="README-images/add-to-cart.png" width="50%">
